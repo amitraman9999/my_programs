@@ -1,0 +1,7 @@
+#Given an integer A, find the rounded value of real number A / 200.
+def rounded_value(A):
+    """ function will return rounded value of A/200."""
+    rounded = round(A/200)
+    return rounded
+
+rounded_value(780)
