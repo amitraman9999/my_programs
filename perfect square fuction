@@ -1,0 +1,10 @@
+#perfect square fuction
+def is_perfect_square(A):
+    """Function to check if a number is perfect square"""
+    root= int(A**0.5)
+    if root * root == A:
+        return 1
+    else:
+        return 0
+
+is_perfect_square(25)
